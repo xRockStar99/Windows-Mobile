@@ -41,7 +41,7 @@ proot-distro remove ubuntu
 ### Then,paste this command.It will take about 15 mins.
 
 ```
-wget https://raw.githubusercontent.com/atamshkai/Windows-11-Style-Ubuntu-Jammy-Wine-Gnome-Desktop-For-Termux-x11/main/winex11.sh && bash winex11.sh
+wget https://raw.githubusercontent.com/xRockStar99/Windows-Mobile/refs/heads/main/winex11.sh && bash winex11.sh
 ```
 
 ### Login again to termux
