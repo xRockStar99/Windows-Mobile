@@ -8,7 +8,7 @@ rm -rf ~/zsh
 chsh -s zsh 
 echo "killall pulseaudio &>/dev/null" >>~/.zshrc 
 echo "pulseaudio --start --exit-idle-time=-1; pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" >>~/.zshrc 
-wget https://raw.githubusercontent.com/atamshkai/Windows-11-Style-Ubuntu-Jammy-Wine-Gnome-Desktop-For-Termux-x11/main/wine
+wget https://raw.githubusercontent.com/xRockStar99/Windows-Mobile/refs/heads/main/wine
 mv wine ~/../usr/bin
 chmod +x ~/../usr/bin/wine
 echo "proot-distro login ubuntu --shared-tmp --bind /dev/null:/proc/sys/kernal/cap_last_cap" >>~/../usr/bin/start-wine
