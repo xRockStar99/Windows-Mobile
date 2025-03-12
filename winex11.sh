@@ -13,8 +13,8 @@ mv wine ~/../usr/bin
 chmod +x ~/../usr/bin/wine
 echo "proot-distro login ubuntu --shared-tmp --bind /dev/null:/proc/sys/kernal/cap_last_cap" >>~/../usr/bin/start-wine
 chmod +x ~/../usr/bin/start-wine
-wget https://github.com/xRockStar99/Windows-Mobile/raw/refs/heads/main/wine_C0h5NWUF0n.bmp && mkdir /storage/downloads/ImageConverter && mv wine_C0h5NWUF0n.bmp /storage/downloads/ImageConverter
-proot-distro restore /storage/downloads/winex11.tar.xz
+wget https://github.com/xRockStar99/Windows-Mobile/raw/refs/heads/main/wine_C0h5NWUF0n.bmp && mkdir storage/downloads/ImageConverter && mv wine_C0h5NWUF0n.bmp storage/downloads/ImageConverter
+proot-distro restore storage/downloads/winex11.tar.xz
 rm -rf ~/../usr/var/lib/proot-distro/installed-rootfs/ubuntu/root/Desktop
 mkdir ~/../usr/var/lib/proot-distro/installed-rootfs/ubuntu/root/.desktop
 ln -s ~/../usr/var/lib/proot-distro/installed-rootfs/ubuntu/root/.desktop ~/../usr/var/lib/proot-distro/installed-rootfs/ubuntu/root/Desktop
